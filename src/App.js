@@ -14,28 +14,28 @@ function App() {
       <Button label='button D' color='blue' />
       <Card
         title='my cool title'
-        image='https://picsum.photos/200/300'
+        image='https://picsum.photos/250/300'
         details='jkhasjdkfhajshdfjka'
         firstHref='cnn.com'
         firstLink='Goto CNN'
       />
       <Card
         title='my cool title'
-        image='https://picsum.photos/200/300'
+        image='https://picsum.photos/225/300'
         details='jkhasjdkfhajshdfjka'
         firstHref='cnn.com'
         firstLink='Goto CNN'
       />
       <Card
         title='my cool title'
-        image='https://picsum.photos/200/300'
+        image='https://picsum.photos/230/300'
         details='jkhasjdkfhajshdfjka'
         firstHref='cnn.com'
         firstLink='Goto CNN'
       />
       <Card
         title='my cool title'
-        image='https://picsum.photos/200/300'
+        image='https://picsum.photos/210/300'
         details='jkhasjdkfhajshdfjka'
         firstHref='cnn.com'
         firstLink='Goto CNN'
