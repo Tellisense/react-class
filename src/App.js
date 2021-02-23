@@ -3,11 +3,13 @@ import React from "react";
 import Button from "./components/Button";
 import Card from "./components/Card";
 import Paragraph from "./components/Paragraph";
+import Practice from "./components/Practice";
 
 function App() {
   return (
     <div className='App'>
       <h1>My React App</h1>
+      <Practice values={{ x: 50, y: 20 }} />
       <Button label='button A' color='red' />
       <Button label='button B' color='green' />
       <Button label='button C' color='salmon' />

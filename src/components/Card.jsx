@@ -1,12 +1,25 @@
 import React from 'react'
+import _ from "lodash";
 
+export function add(x, y) {
+  return x + y
+}
 
 export default function Card({ myFavNumber, children }) {
 
 
   const person = { firstName: "Justin", age: 36 }
+
+
   const { firstName, age } = person  //Object destructuring
 
+
+
+  var objects = [{ a: 1 }, { b: 2 }];
+
+  var deep = _.cloneDeep(objects);  // lodash library deepcopy
+
+  console.log(`deep copy: `, deep);
 
 
   return (
