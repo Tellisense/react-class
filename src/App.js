@@ -1,15 +1,9 @@
 import React from "react";
-import NewsCard from "./components/NewsCard";
-import { data } from "./data";
+
+import MainLayout from "./views/MainLayout";
 
 function App() {
-  return (
-    <div>
-      {data?.map(singleNews => {
-        return <NewsCard key={singleNews.id} data={singleNews} />;
-      })}
-    </div>
-  );
+  return <MainLayout />;
 }
 
 export default App;
