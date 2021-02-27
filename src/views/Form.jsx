@@ -44,11 +44,13 @@ const Form = () => {
   }
 
   return (
-    <div>
+    <div className="mb-20 p-20">
       <form onSubmit={handleSubmit}>
         <input className="border-2 border-blue-500 p-2 " type="text" name="title" value={article.title} onChange={handleChange} />
+        <br />
         <textarea className="border-2 border-blue-500  p-2" type="text" name="content" value={article.content} onChange={handleChange} />
-        <input type="submit" value="submit" />
+        <br />
+        <input className="" type="submit" value="submit" />
       </form>
     </div>
   )
