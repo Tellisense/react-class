@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/Header'
+import Login from '../views/Login'
 import PicturePage from '../views/PicturePage'
 import ArticlePage from './Articles/ArticlesPage'
 import axios from 'axios'
@@ -22,8 +23,9 @@ const MainLayout = () => {
 
   return (
     <>
-      <ArticlePage />
-      {/* <Header /> */}
+      {/* <ArticlePage /> */}
+      <Header />
+      <Login />
       {/* <PicturePage data={data} /> */}
     </>
   )

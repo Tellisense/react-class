@@ -10,7 +10,7 @@ const ArticlesPage = () => {
   return (
     <>
       <Header />
-      <Articles data={data} />
+      {/* <Articles data={data} /> */}
     </>
   )
 }
